@@ -8,15 +8,27 @@ div[class*="col"] {
 
 .rojo {
   background-color: red;
-  height: 500px;
 }
 
 .blanco {
   background-color: white;
-  height: 500px;
 }
 
 .morado {
   background-color: purple;
   height: 100px;
+}
+
+.naranja {
+  background-color: orange;
+  height: 150px;
+}
+
+.azul {
+  background-color: blue;
+  height: 75px;
+}
+
+div#third-row {
+  height: 50px;
 }
