@@ -1,0 +1,22 @@
+div[class*="col"] {
+  border: 3px solid white;
+}
+.verde {
+  background-color: greenyellow;
+  height: 100px;
+}
+
+.rojo {
+  background-color: red;
+  height: 500px;
+}
+
+.blanco {
+  background-color: white;
+  height: 500px;
+}
+
+.morado {
+  background-color: purple;
+  height: 100px;
+}
