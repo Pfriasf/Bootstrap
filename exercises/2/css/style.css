@@ -1,13 +1,17 @@
 div[class*="col"] {
   border: 3px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-h4 {
+h4,
+p {
   color: white;
   font-weight: bold;
 }
 .verde {
-  background-color: greenyellow;
+  background-color: #00ff00;
   height: 100px;
 }
 
@@ -15,8 +19,9 @@ h4 {
   background-color: red;
 }
 
-.blanco {
-  background-color: white;
+.gris {
+  background-color: #cccccc;
+  height: 75px;
 }
 
 .morado {
@@ -25,12 +30,17 @@ h4 {
 }
 
 .naranja {
-  background-color: orange;
+  background-color: #ff9955;
   height: 150px;
 }
 
 .azul {
-  background-color: blue;
+  background-color: #87aade;
+  height: 75px;
+}
+
+.azul-claro {
+  background-color: #00ffff;
   height: 75px;
 }
 
