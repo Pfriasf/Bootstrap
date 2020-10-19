@@ -1,0 +1,88 @@
+@media (max-width: 575px) {
+  #header {
+    background-color: #ffb380;
+  }
+  #header div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #main div {
+    display: flex;
+    align-items: center;
+    height: 150px;
+  }
+  #uno {
+    background-color: red;
+    justify-content: flex-start;
+  }
+  #dos {
+    background-color: #00ffff;
+    justify-content: center;
+  }
+  #tres {
+    background-color: red;
+    justify-content: flex-end;
+  }
+}
+@media (min-width: 576px) {
+  #header {
+    background-color: #00ffff;
+  }
+  #header div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  #main div {
+    display: flex;
+    align-items: center;
+  }
+  #uno {
+    background-color: red;
+    justify-content: flex-start;
+  }
+  #dos {
+    background-color: red;
+    justify-content: flex-end;
+  }
+  #tres {
+    background-color: #00ff00;
+    justify-content: center;
+  }
+}
+@media (min-width: 768px) {
+  #header {
+    background-color: #00ff00;
+  }
+  #main div {
+    background-color: red;
+    height: 300px;
+    justify-content: center;
+    align-items: flex-start;
+  }
+}
+div[class*="col"] {
+  border: 3px solid white;
+}
+#main div {
+  font-size: 100px;
+}
+
+h4,
+p {
+  color: black;
+  font-weight: bold;
+}
+
+#footer div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75px;
+  background-color: yellow;
+}
+
+#header div {
+  height: 75px;
+}
