@@ -10,3 +10,7 @@ Ejercicio #1
 Ejercicio #2
 
 <img src="img/ejercicio-1-2.png" alt="exercise 2 reference">
+
+Ejercicio #3
+
+<img src="img/ejercicio-1-3.png" alt="exercise 3 reference">
